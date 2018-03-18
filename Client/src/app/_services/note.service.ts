@@ -79,6 +79,7 @@ export class NoteService {
   updateNote(id: number, content: string) {
     let request = JSON.stringify({ content: content });
     let options = new RequestOptions({ headers: this.headers }); // Create a request option
+    //console.log(id+':'+content);
     return this.http.put(this.apiUrl+'/notes/'+id, request, options)
         .map((response: Response) => {
             return response;

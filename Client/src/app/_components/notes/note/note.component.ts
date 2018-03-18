@@ -24,7 +24,7 @@ export class NoteComponent implements OnInit {
   }
 
   onUpdateNote() {
-  	this.noteService.updateNote(this.id, this.content)
+    this.noteService.updateNote(this.id, this.content)
       .subscribe(res => {
         let note = new Note();
         note.id = this.id;
