@@ -1,7 +1,7 @@
 # Laravel5/Angular5 project example
 
 ## Build
-- Rename `Server/.production.env` to `Server/.env`.
+- Rename `Server/.env.example` to `Server/.env`.
 - Run `ng build -prod` in `Client` directory to build angular client. The build artifacts will be stored in the `dist/` directory.
 
 ## Server
@@ -20,5 +20,7 @@
 - Add URL to your local server to  `/Client/src/environments/environment.ts`
 - Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 - If you want to generate a new component run `ng generate component component-name`. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+![Screenshots](./img1.png)
 
 ## License: [MIT](https://opensource.org/licenses/MIT)
