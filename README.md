@@ -1,4 +1,6 @@
 # Laravel5/Angular5 project example
+This project consist of RESTful web service (using Laravel 5.6) and SPA web client (using Angular 5).
+The example explain how to use JWT authentication, CRUD operations, search filters.
 
 ## Build
 - Rename `Server/.env.example` to `Server/.env`.
